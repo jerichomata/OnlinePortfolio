@@ -227,7 +227,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 300px; 
   background-image: url('./assets/img/header-img.jpg');
   background-position: center;
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
 } 
@@ -317,7 +317,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* About */
 
 .about {
-  padding: 100px; 
+  padding: 150px; 
 } 
 
 .about h2{
@@ -330,27 +330,27 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .about__container {
   display: flex;
   flex-direction: row;
-  /* grid-template-columns: repeat(2, 1fr); */
   align-items: center;
   column-gap: 4rem;
 }
 
 .about__img {
-  width: 300px;
+  width: 450px;
   border-radius: 1.5rem;
   justify-self: left;
 }
 
 .about__data {
-  /* grid-template-columns: repeat(3, 140px); */
-  /* gap: 0.5rem; */
-  /* margin-bottom: var(--mb-2); */
   justify-content: left;
   align-items: left;
+  text-align: left;
 }
 
-.about__description {
-  /* align-items: left; */
+.about__technologies {
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
 }
 
 .App-logo {
