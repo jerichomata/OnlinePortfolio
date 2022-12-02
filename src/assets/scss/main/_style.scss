@@ -1,7 +1,7 @@
 /* Section
 ---------------------*/
 .section {
-  padding: 100px 0;
+  padding: 150px 0px;
   position: relative;
   @include down-md {
     padding-top: 80px;
@@ -30,7 +30,7 @@
   }
 }
 .section-title {
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   h3 {
     font-size: 45px;
     color: $px-dark;
@@ -194,7 +194,7 @@
   }
   .full-screen {
     min-height: 100vh;
-    padding-top: 120px;
+    // padding-top: 120px;
     padding-bottom: 90px;
     @media screen and (max-width: 575px) {
       min-height: calc(100vh - 56px) !important;

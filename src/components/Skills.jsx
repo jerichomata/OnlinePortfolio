@@ -4,103 +4,47 @@ const Skills = () => {
   return (
     <>
       <div className="row">
-        <div className="col-lg-4 my-3">
+        <div className="col-lg-8">
           <div className="sm-title">
-            <h4 className="font-alt">Experience</h4>
+            <h4 className="font">Where I've Worked</h4>
           </div>
           <ul className="aducation-box dark-bg">
             <li>
-              <span className="theme-bg">2010-2012</span>
-              <h6>Software Engineer</h6>
-              <p>Furious Design Institute</p>
+              
+              <h6>Full-Stack Web Developer Intern @Freestand</h6>
+              <span className="theme-bg">May 2021 - Sep 2021</span>
+              <p> &#x2022; Integrated Cloud Firebase storage, allowing users to directly upload .jpg, .png, or.mp4 files
+                </p>
+              <p> &#x2022; Designed & implemented full stack CRUD web application using React and Node.js
+                </p>
+              {/* <p> &#x2022; Communicated with developers and product design team on a weekly basis
+                </p> */}
             </li>
             <li>
-              <span className="theme-bg">2010-2012</span>
-              <h6>Android Developer</h6>
-              <p>Ketlimte Design Ltd.</p>
+              <h6>Game Developer Intern @Green Science Games</h6>
+              <span className="theme-bg">Feb 2020 - Apr 2020</span>
+              <p> &#x2022; Created 2D game based on Plants vs. Zombies using Unity and C# 
+                </p>
+              <p> &#x2022; Automated customer reporting system in handling issues related to live-image captures
+                </p>
+              {/* <p> &#x2022; Collaborated with a team of students to create interactive interface
+                </p> */}
             </li>
             <li>
-              <span className="theme-bg">2010-2012</span>
-              <h6>Rubby Developer</h6>
-              <p>Randara Institute Academy</p>
+              <h6>Website Designer (UI/UX) @Finesse</h6>
+              <span className="theme-bg">Oct 2018 - Jun 2019</span>
+              <p> &#x2022; Created brand and took on multiple roles including logo design, and web developer
+                </p>
+              <p> &#x2022; Oversaw team of 4 developers, acting as project manager for platform transition
+                </p>
+              {/* <p> &#x2022; Built and shipped a marketing website and e-commerce platform
+                </p> */}
             </li>
           </ul>
           {/* End  .aducation-box */}
         </div>
         {/* End .col */}
 
-        <div className="col-lg-4 ml-auto my-3">
-          <div className="sm-title">
-            <h4 className="font-alt">My Skills</h4>
-          </div>
-          <div className="gray-bg skill-box">
-            <div className="skill-lt">
-              <h6>React js</h6>
-              <div className="skill-bar">
-                <div
-                  className="skill-bar-in theme-bg"
-                  style={{ width: 92 + "%" }}
-                >
-                  <span>92%</span>
-                </div>
-              </div>
-            </div>
-            {/* End skill-lt */}
-
-            <div className="skill-lt">
-              <h6>WordPress</h6>
-              <div className="skill-bar">
-                <div
-                  className="skill-bar-in theme-bg"
-                  style={{ width: 75 + "%" }}
-                >
-                  <span>75%</span>
-                </div>
-              </div>
-            </div>
-            {/* End skill-lt */}
-
-            <div className="skill-lt">
-              <h6>Vue js</h6>
-              <div className="skill-bar">
-                <div
-                  className="skill-bar-in theme-bg"
-                  style={{ width: 86 + "%" }}
-                >
-                  <span>86%</span>
-                </div>
-              </div>
-            </div>
-            {/* End skill-lt */}
-
-            <div className="skill-lt">
-              <h6>UI/UX</h6>
-              <div className="skill-bar">
-                <div
-                  className="skill-bar-in theme-bg"
-                  style={{ width: 88 + "%" }}
-                >
-                  <span>88%</span>
-                </div>
-              </div>
-            </div>
-            {/* End skill-lt */}
-
-            <div className="skill-lt">
-              <h6>CSS3</h6>
-              <div className="skill-bar">
-                <div
-                  className="skill-bar-in theme-bg"
-                  style={{ width: 92 + "%" }}
-                >
-                  <span>92%</span>
-                </div>
-              </div>
-            </div>
-            {/* End skill-lt */}
-          </div>
-        </div>
-        {/* End .col */}
       </div>
     </>
   );

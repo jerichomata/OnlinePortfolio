@@ -33,7 +33,7 @@ const Slider = () => {
                 <div className="btn-bar mt-4">
                   <a className="px-btn px-btn-theme btn-md" href={
                       process.env.PUBLIC_URL + "pdf/Resume.pdf"
-                      } without rel="noopener norefferer" target='_blank'>
+                      } without rel="noopener norefferer">
                     Resume
                   </a>
                 </div>

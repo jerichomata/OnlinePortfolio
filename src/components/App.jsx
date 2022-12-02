@@ -36,12 +36,7 @@ const HomeTwo = () => {
         <div className="container">
           <div className="row justify-content-center section-title text-center">
             <div className="col-lg-7">
-              <h3 className="font-alt">My Portfolio</h3>
-              <p>
-                I design and develop services for customers of all sizes,
-                specializing in creating stylish, modern websites, web services
-                and online stores.
-              </p>
+              <h3 className="font">Some Projects I've Built</h3>
             </div>
           </div>
           {/* End .row */}
@@ -57,58 +52,10 @@ const HomeTwo = () => {
             <div className="col-lg-6 my-3">
               <div className="contct-form">
                 <div className="sm-title">
-                  <h4 className="font-alt">Contact us</h4>
+                  <h4 className="font-alt">Contact</h4>
                 </div>
                 {/* End .sm-title */}
                 <Contact />
-              </div>
-            </div>
-            {/* End .col */}
-
-            <div className="col-lg-4 ml-auto my-3">
-              <div className="contact-info">
-                <div className="sm-title">
-                  <h4 className="font-alt">Get in touch</h4>
-                  <p>
-                    Always available for freelancing if the right project comes
-                    along, Feel free to contact me.
-                  </p>
-                </div>
-                <div className="media">
-                  <div className="icon">
-                    <i className="ti-map"></i>
-                  </div>
-                  <span className="media-body">
-                    123 Stree New York City , <br />
-                    United States Of America <br />
-                    NY 750065.
-                  </span>
-                </div>
-                {/* End media */}
-
-                <div className="media">
-                  <div className="icon">
-                    <i className="ti-email"></i>
-                  </div>
-                  <span className="media-body">
-                    support@domain.com
-                    <br />
-                    info@domain.com
-                  </span>
-                </div>
-                {/* End media */}
-
-                <div className="media">
-                  <div className="icon">
-                    <i className="ti-mobile"></i>
-                  </div>
-                  <span className="media-body">
-                    +044 966 9696 636
-                    <br />
-                    +044 966 9696 636
-                  </span>
-                </div>
-                {/* End media */}
               </div>
             </div>
             {/* End .col */}
