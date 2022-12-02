@@ -1,5 +1,5 @@
 import React from "react";
-import LandingPage from "../components/LandingPage";
+import LandingPage from "../components/App.jsx";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import ScrollTopBehaviour from "../components/ScrollTopBehaviour";
 

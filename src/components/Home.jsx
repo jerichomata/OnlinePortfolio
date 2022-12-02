@@ -1,7 +1,7 @@
 import React from "react";
 import TextLoop from "react-text-loop";
 import Social from "./Social";
-import resumePdf from "../assets/Resume.pdf"
+// import resumePdf from "../assets/Resume.pdf"
 
 const Slider = () => {
   return (
@@ -31,7 +31,9 @@ const Slider = () => {
                     </TextLoop>{" "}
                   </h1>
                 <div className="btn-bar mt-4">
-                  <a className="px-btn px-btn-theme btn-md" href={resumePdf} without rel="noopener norefferer" target='_blank'>
+                  <a className="px-btn px-btn-theme btn-md" href={
+                      process.env.PUBLIC_URL + "pdf/Resume.pdf"
+                      } without rel="noopener norefferer" target='_blank'>
                     Resume
                   </a>
                 </div>

@@ -185,7 +185,7 @@ const Portfolio = () => {
                             href={val.portfolioLink}
                             className="portfolio-icon"
                             target="_blank"
-                            rel="noopener noreferrer"
+                            rel="noreferrer"
                           >
                             <span className="ti-link"></span>
                           </a>
@@ -230,7 +230,7 @@ const Portfolio = () => {
                             href={val.portfolioLink}
                             className="portfolio-icon"
                             target="_blank"
-                            rel="noopener noreferrer"
+                            rel="noreferrer"
                           >
                             <span className="ti-link"></span>
                           </a>
@@ -275,7 +275,7 @@ const Portfolio = () => {
                             href={val.portfolioLink}
                             className="portfolio-icon"
                             target="_blank"
-                            rel="noopener noreferrer"
+                            rel="noreferrer"
                           >
                             <span className="ti-link"></span>
                           </a>
@@ -320,7 +320,7 @@ const Portfolio = () => {
                             href={val.portfolioLink}
                             className="portfolio-icon"
                             target="_blank"
-                            rel="noopener noreferrer"
+                            rel="noreferrer"
                           >
                             <span className="ti-link"></span>
                           </a>
@@ -366,7 +366,7 @@ const Portfolio = () => {
                             href={val.portfolioLink}
                             className="portfolio-icon"
                             target="_blank"
-                            rel="noopener noreferrer"
+                            rel="noreferrer"
                           >
                             <span className="ti-link"></span>
                           </a>

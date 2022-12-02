@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Routes from "./router/Routes";
 import ScrollToTop from "./components/ScrollToTop";
-
+// import LandingPage from "./components/App.jsx"
 
 
 const App = () => {
@@ -12,6 +12,7 @@ const App = () => {
     <>
       <ScrollToTop />
       <Routes />
+      {/* <LandingPage /> */}
     </>
   );
 };
