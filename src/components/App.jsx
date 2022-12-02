@@ -4,7 +4,7 @@ import Slider from "./Home";
 import About from "./About";
 import Skills from "./Skills";
 import Portfolio from "./Portfolio";
-import Contact from "./Contact";
+import ContactUs from "./Contact";
 import Footer from "./Footer";
 
 
@@ -52,13 +52,17 @@ const HomeTwo = () => {
             <div className="col-lg-6 my-3">
               <div className="contct-form">
                 <div className="sm-title">
-                  <h4 className="font-alt">Contact</h4>
+                  <h4 className="font">Get In Touch</h4>
+                  <p className="font">
+                    I am open to new opportunites and collaboration on future projects!
+                  </p>
                 </div>
-                {/* End .sm-title */}
-                <Contact />
+
+                <ContactUs />
+                
               </div>
             </div>
-            {/* End .col */}
+
           </div>
         </div>
       </section>

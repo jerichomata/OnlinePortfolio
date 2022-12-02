@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 
 const About = () => {
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+
   return (
     <>
       <div className="row align-items-center justify-content-center">
         <div className="col-lg-6 my-3">
           <div className="img-box dark-img-box">
-            <img src="img/logo/AboutImg.png" alt="pciture" />
+            <img src="img/logo/about.png" alt="pciture" />
           </div>
         </div>
 
@@ -31,8 +34,8 @@ const About = () => {
             </p>
             {/* End .row */}
             <div className="btn-bar">
-              <a className="px-btn px-btn-theme" href="img/resume.png" download>
-                Let's Talk!
+              <a className="px-btn px-btn-theme" href="#contact" onClick={handleClick}>
+                Let's Chat
               </a>
             </div>
           </div>

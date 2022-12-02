@@ -30,11 +30,12 @@ const HeaderFluid = () => {
         <nav className="container-fluid">
           <div className=" header-transparent">
             {/* Brand */}
-            <Link to="#home">
+            <Link to="#home" >
               <img
                 className="navbar-brand"
                 src="img/logo/jm-logo.png"
                 alt="brand logo"
+                
               />
             </Link>
             {/* / */}
@@ -64,7 +65,7 @@ const HeaderFluid = () => {
               </Link>
               <Scrollspy
                 className="anchor_nav navbar-nav ml-auto"
-                items={["home", "about", "skills", "work","contact"]}
+                items={["home", "about", "skills", "work", "contact"]}
                 currentClassName="current"
                 offset={-71}
               >
